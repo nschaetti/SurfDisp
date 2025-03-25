@@ -64,7 +64,7 @@ def sphere(
         r0 = ar
 
         # For each layer
-        for i in range(mmax):
+        for i in range(mmax-1):
             # Add thickness
             dr += d[i]
 
